@@ -1,0 +1,13 @@
+{
+  "name": "the-garden-barber",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for The Garden Barber Guernsey – precision garden care",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
